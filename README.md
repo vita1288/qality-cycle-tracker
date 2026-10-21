@@ -8,9 +8,6 @@ The Playwright test pulls a test cycle from the QAlity Plus REST API, keeps only
 - a Markdown report (`reports/cycle-<id>-<tester>.md`)
 - an HTML dashboard with run history (`reports/qality-dashboard.html`)
 
-![Dashboard (demo data)](docs/dashboard-light.png)
-
-> Screenshots use **dummy data** (fictional "ShopNest" project).
 
 ## Features
 - **Cycle lookup by name** – set `SPRINT_FILTER` (e.g. `Sprint 24`); no cycle ID needed, so it keeps working every sprint
